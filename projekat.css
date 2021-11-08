@@ -1,0 +1,25 @@
+body {background-color: azure;}
+a {text-decoration: none; font-size: 25px; color: #000; font-weight: bold;}
+h1 {font-size: 40px;}
+#a, #b, .c, .d, #e, p {margin: 15px;}
+#a, #b, .c, .d, #e {text-align: center; border: 2px solid #000;}
+.console {width: 60%;}
+#ps {width: 6.5%; padding: 10px;}
+#ps, .c {float: left;}
+#ps:hover {animation: 3s j infinite;}
+ul {list-style: none;}
+li {display: flex; padding-right: 10%; padding-top: 1.3%;}
+li, .d {float: right;}
+#a {background-color: lightgray; width: 80%; margin: auto; font-size: 18px;}
+#b {height: 100px;}
+#b, #e {background-color: darkgray;}
+.c {width: 70%;}
+.d {width: 21%;}
+#e {clear: both; height: 50%; font-size: 20px;}
+#f:hover {color: skyblue;}
+#g:hover {color: pink;}
+#h:hover {color: red;}
+#i:hover {color: lightgreen}
+@keyframes j {0%{transform: rotate(0deg);} 25%{transform: rotate(90deg);} 50%{transform: rotate(180deg);} 75% {transform: rotate(270deg);} 100%{transform: rotate(360deg);}}
+@media screen and (max-width:980px) {#ps {width: 13%;} #ps, li {padding-top: 2%;} .c {width: 60%;} .d {width: 25%;}}
+@media screen and (max-width:700px) {#ps, li, .c, .d {float: none;} li {padding-right: -10px; display: block;} #b {height: 300px;} .c, .d { margin: auto; width: 80%;}}
